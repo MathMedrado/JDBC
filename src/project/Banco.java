@@ -9,9 +9,9 @@ public class Banco {
 
 		banco.conectar();
 		banco.estaConectado();
-		//banco.inserirPessoa("Bruno Fernandes",'M',21,"Português");
+		banco.inserirPessoa("Bruno Fernandes",'M',21,"Português");
 		//banco.updatePessoa("Bruno Penandes", 'M', 26, "Portuges", 4);
-		banco.apagarPessoa(6);
+		//banco.apagarPessoa(6);
 		
 		banco.listar();
 		
